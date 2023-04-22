@@ -27,4 +27,7 @@ This project has several potential applications, including surveillance systems,
 - follow the instructions in google collab file : `https://drive.google.com/file/d/1ixRWA_fl9kS3kkFvWAuCo5qQMaQzPz9V/view?usp=sharing`
 - Copy `cpkt.t7` deepsort model in `deep_sort_pytorch\deep_sort\deep\checkpoint`  for making predictions using this repo. 
 
+## Results : 
+
+
 
