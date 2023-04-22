@@ -12,15 +12,19 @@ This project has several potential applications, including surveillance systems,
 
 ## How to use this repo for object tracking  ? 
 
-- Clone this repo : `git clone ` 
+- Clone this repo : `git clone https://github.com/Vinayakmane47/Object_tracking_DeepSort_YOLOV5.git` 
 - Install requirements : `pip install -r yolov5 requirements.txt` 
 - Install Pytorch : `conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cpuonly -c pytorch`
 - Install easydict : `pip install easydict`
 - Make predictions : `python detect_sort.py --weights yolov5s.pt  --img 640  --source <filename>` if using webcam -> replace filename with 0
 
 
+## How to train DeepSort  : 
+
+- Train YOLOV5 with custom dataset if classes are different from COCO dataset 
+- replace YOLOV5 trained model with `yolov5s.pt`
+- prepare data of object you want to track which will have images of object only. 
+- follow the instructions in google collab file : `https://drive.google.com/file/d/1ixRWA_fl9kS3kkFvWAuCo5qQMaQzPz9V/view?usp=sharing`
+- Copy `cpkt.t7` deepsort model in `deep_sort_pytorch\deep_sort\deep\checkpoint`  for making predictions using this repo. 
 
 
-
-## google collab : 
-https://drive.google.com/file/d/1ixRWA_fl9kS3kkFvWAuCo5qQMaQzPz9V/view?usp=sharing
