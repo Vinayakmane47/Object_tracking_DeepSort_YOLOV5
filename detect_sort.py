@@ -1,7 +1,4 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-'''
+
 
 import argparse
 import time
